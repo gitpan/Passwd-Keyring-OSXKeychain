@@ -1,0 +1,7 @@
+Revision history for Keyring-OSXKeychain
+
+0.10	2012-11-11
+        Initial version. Written without access to Mac, according
+        to the man page and consulting python code from keyring and
+        keychain libraries.
+
