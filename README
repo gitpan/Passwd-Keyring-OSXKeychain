@@ -3,7 +3,7 @@ NAME
     OSX/Keychain.
 
 VERSION
-    Version 0.10
+    Version 0.1001
 
 WARNING
     I do not have Mac. I wrote the library mimicking actions of some python

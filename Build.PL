@@ -18,6 +18,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl' => 5.006,
+        'IPC::System::Simple' => '1.18',
     },
 
     create_makefile_pl => 'traditional',

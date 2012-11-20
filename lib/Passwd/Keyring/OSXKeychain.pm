@@ -11,11 +11,11 @@ Passwd::Keyring::OSXKeychain - Password storage implementation based on OSX/Keyc
 
 =head1 VERSION
 
-Version 0.10
+Version 0.1001
 
 =cut
 
-our $VERSION = '0.10';
+our $VERSION = '0.1001';
 
 =head1 WARNING
 

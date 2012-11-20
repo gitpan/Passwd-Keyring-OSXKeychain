@@ -1,5 +1,9 @@
 Revision history for Keyring-OSXKeychain
 
+0.1001	2012-11-20
+	Fixed some reported test failures (added missing dependency on IPC::System::Simple).
+
+
 0.10	2012-11-11
         Initial version. Written without access to Mac, according
         to the man page and consulting python code from keyring and
