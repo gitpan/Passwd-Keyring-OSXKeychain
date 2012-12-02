@@ -9,7 +9,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120921'
 keywords:
   - passwords
   - security
@@ -27,7 +27,7 @@ name: Passwd-Keyring-OSXKeychain
 provides:
   Passwd::Keyring::OSXKeychain:
     file: lib/Passwd/Keyring/OSXKeychain.pm
-    version: 0.1001
+    version: 0.1002
 requires:
   IPC::System::Simple: 1.18
   perl: 5.006
@@ -36,4 +36,4 @@ resources:
   homepage: http://bitbucket.org/Mekk/perl-keyring-osxkeychain
   license: http://dev.perl.org/licenses/
   repository: http://bitbucket.org/Mekk/perl-keyring-osxkeychain
-version: 0.1001
+version: 0.1002

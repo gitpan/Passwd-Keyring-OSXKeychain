@@ -7,4 +7,4 @@ BEGIN {
 }
 
 diag( "Testing Passwd::Keyring::OSXKeychain $Passwd::Keyring::OSXKeychain::VERSION, Perl $], $^X" );
-diag( "Consider spawning  seahorse  and checking whether all passwords are properly wiped after tests" );
+#diag( "Consider spawning  GUI  and checking whether all passwords are properly wiped after tests" );

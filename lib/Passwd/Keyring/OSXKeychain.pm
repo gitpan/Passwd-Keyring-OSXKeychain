@@ -3,6 +3,7 @@ package Passwd::Keyring::OSXKeychain;
 use warnings;
 use strict;
 
+use Carp qw(croak);
 use IPC::System::Simple qw(capturex systemx);
 
 =head1 NAME
@@ -11,11 +12,11 @@ Passwd::Keyring::OSXKeychain - Password storage implementation based on OSX/Keyc
 
 =head1 VERSION
 
-Version 0.1001
+Version 0.1002
 
 =cut
 
-our $VERSION = '0.1001';
+our $VERSION = '0.1002';
 
 =head1 WARNING
 
@@ -90,8 +91,8 @@ sub new {
     };
     bless $self;
 
-    unless( -x $self->{security_prog} ) {
-        croak("OSXKeychain not available: security program $self->{security_prog} is missing");
+    unless( -x $self->{security} ) {
+        croak("OSXKeychain not available: security program $self->{security} is missing");
     }
     if($self->{keychain}) {
         # Add .keychain suffix if missing
@@ -111,7 +112,7 @@ sub new {
 # if specified
 sub _make_sys_args {
     my ($self, @args) = @_;
-    unshift @args, $self->{security_prog};
+    unshift @args, $self->{security};
     push @args, $self->{keychain} if $self->{keychain};
     return @args;
 }
