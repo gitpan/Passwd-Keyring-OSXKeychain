@@ -46,7 +46,7 @@
    "provides" : {
       "Passwd::Keyring::OSXKeychain" : {
          "file" : "lib/Passwd/Keyring/OSXKeychain.pm",
-         "version" : "0.1002"
+         "version" : "0.1003"
       }
    },
    "release_status" : "stable",
@@ -62,5 +62,5 @@
          "url" : "http://bitbucket.org/Mekk/perl-keyring-osxkeychain"
       }
    },
-   "version" : "0.1002"
+   "version" : "0.1003"
 }

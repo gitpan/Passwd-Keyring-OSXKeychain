@@ -1,5 +1,8 @@
 Revision history for Keyring-OSXKeychain
 
+0.1003	2012-12-19
+	Dropping taint from test scripts to avoid test errors on capturex call.
+
 0.1002	2012-12-02
 	Bugfix for invalid attribute name and missing import after
         first OS/X report (
