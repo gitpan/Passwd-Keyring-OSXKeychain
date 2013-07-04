@@ -12,11 +12,11 @@ Passwd::Keyring::OSXKeychain - Password storage implementation based on OSX/Keyc
 
 =head1 VERSION
 
-Version 0.1003
+Version 0.1004
 
 =cut
 
-our $VERSION = '0.1003';
+our $VERSION = '0.1004';
 
 =head1 WARNING
 
@@ -43,7 +43,7 @@ storage for passwords and similar sensitive data.
         $password = <somehow interactively prompt for password>;
 
         # securely save password for future use
-        $keyring->set_password($username, "blahblah.com");
+        $keyring->set_password($username, $password, "blahblah.com");
     }
 
     login_somewhere_using($username, $password);

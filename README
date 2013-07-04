@@ -3,7 +3,7 @@ NAME
     OSX/Keychain.
 
 VERSION
-    Version 0.1003
+    Version 0.1004
 
 WARNING
     I do not have Mac. I wrote the library mimicking actions of some python
@@ -28,7 +28,7 @@ SYNOPSIS
             $password = <somehow interactively prompt for password>;
 
             # securely save password for future use
-            $keyring->set_password($username, "blahblah.com");
+            $keyring->set_password($username, $password, "blahblah.com");
         }
 
         login_somewhere_using($username, $password);
