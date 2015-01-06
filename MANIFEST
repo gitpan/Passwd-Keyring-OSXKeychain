@@ -23,3 +23,5 @@ t/cpan-meta.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
+t/kwalitee.t
+t/kwalitee_extra.t

@@ -4,7 +4,7 @@
       "Marcin Kasperski <Marcin.Kasperski@mekk.waw.pl>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.421",
    "keywords" : [
       "passwords",
       "security",
@@ -46,7 +46,7 @@
    "provides" : {
       "Passwd::Keyring::OSXKeychain" : {
          "file" : "lib/Passwd/Keyring/OSXKeychain.pm",
-         "version" : "0.1004"
+         "version" : "0.1005"
       }
    },
    "release_status" : "stable",
@@ -62,5 +62,5 @@
          "url" : "http://bitbucket.org/Mekk/perl-keyring-osxkeychain"
       }
    },
-   "version" : "0.1004"
+   "version" : "0.1005"
 }
